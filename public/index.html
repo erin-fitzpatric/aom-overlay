@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #333; /* Optional: for better visibility */
+      }
+      #leaderboard {
+        display: flex; /* Enable flexbox layout */
+        color: #facc15;
+        text-align: center; /* Center text inside the div */
+        flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+        font-family: "Montserrat", sans-serif; /* Optional: custom font */
+        font-weight: 700; /* Increased weight for sharper appearance */
+        background-image: url("Background.png"); /* Set the background image */
+        background-size: 20em; /* Cover the entire element */
+        background-position: center; /* Center the image */
+        padding: 4px; /* Add padding to ensure content doesn't touch edges */
+        border-radius: 10px; /* Optional: round corners */
+        width: 225px; /* Set the width of the leaderboard */
+        justify-content: center; /* Center the content horizontally */
+        outline: solid #facc15;
+        margin-top: 50px;
+        margin-right: 625px;
+      }
+
+    </style>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="leaderboard"></div>
+  </body>
+</html>

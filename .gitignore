@@ -1,0 +1,43 @@
+# Node modules directory (for Node.js projects)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Environment variable files
+.env
+
+# Build directories
+dist/
+build/
+
+# IDE settings (VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+
+# MacOS specific
+.DS_Store
+
+# Temporary files and system-specific files
+*.swp
+*.tmp
+*.bak
+*.orig
+
+# Coverage reports
+coverage/
+
+# Production files
+*.min.js
+*.min.css
+
+# Package lock files
+package-lock.json
+yarn.lock
